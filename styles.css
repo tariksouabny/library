@@ -1,8 +1,50 @@
 /* Debug */
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 * {
   border: 1px solid red;
 }
 
 /* End debug */
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --left-bg-clr: #123d81;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  flex-grow: 2;
+  min-width: 66vw;
+  max-width: 66vw;
+  max-height: 100vh;
+  min-height: 100vh;
+  background: var(--left-bg-clr);
+}
+
+.left > * {
+  margin-top: clamp(7%, 60px, 17%);
+  margin-left: 10%;
+}
+
+.left h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.title-description > h3 {
+  color: #dddddd;
+  opacity: 0.7;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
