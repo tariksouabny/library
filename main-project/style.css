@@ -66,3 +66,20 @@ button:hover {
 button:focus,
 button:focus-visible {
 }
+
+/* ------ */
+
+.left {
+  background: var(--secondary-clr-d2);
+  width: 66vw;
+  height: 100vh;
+}
+
+
+.left .top {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
