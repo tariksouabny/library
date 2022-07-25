@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@500&display=swap');
+
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -32,6 +34,9 @@
   --secondary-clr-d1: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), #23A7FA;
   --secondary-clr-d2: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #23A7FA;
   --secondary-clr-d3: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), #23A7FA;
+
+  --primary-font: 'Montserrat';
+  --secondary-font: 'Lora', serif;
 
 }
 
