@@ -13,27 +13,27 @@
   -webkit-text-size-adjust: 100%;
 
   --black-100: #1F1C1C;
-  --black-75: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), #1F1C1C;
-  --black-50: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), #1F1C1C;
-  --black-25: linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), #1F1C1C;
-  --black-10: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #1F1C1C;
-  --white: linear-gradient(0deg, #FFFFFF, #FFFFFF), #1F1C1C;
+  --black-75: #575555;
+  --black-50: #8F8D8D;
+  --black-25: #C7C6C6;
+  --black-10: #E9E8E8;
+  --white: #fff;
 
   --primary-clr: #F93D3D;
-  --primary-clr-l1: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), #F93D3D;
-  --primary-clr-l2: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), #F93D3D;
-  --primary-clr-l3: linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), #F93D3D;
-  --primary-clr-d1: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), #F93D3D;
-  --primary-clr-d2: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #F93D3D;
-  --primary-clr-d3: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), #F93D3D;
+  --primary-clr-l1: #FB6E6E;
+  --primary-clr-l2: #FC9E9E;
+  --primary-clr-l3: #FECFCF;
+  --primary-clr-d1: #BB2E2E;
+  --primary-clr-d2: #7D1E1E;
+  --primary-clr-d3: #3E0F0F;
 
   --secondary-clr: #2B457D;
-  --secondary-clr-l1: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), #23A7FA;
-  --secondary-clr-l2: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), #23A7FA;
-  --secondary-clr-l3: linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), #23A7FA;
-  --secondary-clr-d1: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), #23A7FA;
-  --secondary-clr-d2: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #23A7FA;
-  --secondary-clr-d3: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), #23A7FA;
+  --secondary-clr-l1: #5ABDFB;
+  --secondary-clr-l2: #91D3FD;
+  --secondary-clr-l3: #C8E9FE;
+  --secondary-clr-d1: #1A7DBB;
+  --secondary-clr-d2: #11537D;
+  --secondary-clr-d3: #092A3F;
 
   --primary-font: 'Montserrat';
   --secondary-font: 'Lora', serif;
@@ -83,3 +83,21 @@ button:focus-visible {
   justify-content: space-evenly;
 }
 
+.left .top .align-left h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 56px;
+  line-height: 68px;
+  text-transform: uppercase;
+  color: var(--white)
+}
+
+.left .top .align-left h3 {
+  font-family: 'Lora';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 36px;
+color: var(--secondary-clr-l3);
+}
