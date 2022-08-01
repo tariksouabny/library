@@ -32,7 +32,7 @@
   --secondary-clr-l2: #91D3FD;
   --secondary-clr-l3: #C8E9FE;
   --secondary-clr-d1: #1A7DBB;
-  --secondary-clr-d2: #11537D;
+  --secondary-clr-d2: #2B457D;
   --secondary-clr-d3: #092A3F;
 
   --primary-font: 'Montserrat';
@@ -79,19 +79,27 @@ button:focus-visible {
 .left .top {
   display: flex;
   flex-direction: row;
-  width: 100%;
   justify-content: space-evenly;
 }
 
+.left .top .align-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 /* PERSONAL LIBRARY */
-.left .top .align-left h1 {
+#header-personal-library {
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 56px;
-  line-height: 68px;
   text-transform: uppercase;
-  color: var(--white)
+  color: var(--white);
+  text-align: left;
+  
+  /* so the text "personal library" wraps to 2 lines */
+  width: 8ch;
 }
 
 
