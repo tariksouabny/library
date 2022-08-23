@@ -23,14 +23,15 @@
       <h2>Add A Book</h2>
 
       <form>
-        <div>
+        <div class="inputs">
           <input type="text" name="name" placeholder="Name" id="book-name-input">
           <input type="text" name="author" placeholder="Author" id="author-input">
           <input type="number" name="num-pages" placeholder="# Of Pages" id="num-pages-input">
         </div>
-        <input type="checkbox" name="read" id="is-read-input">
-        <label for="is-read-input">Have You Read This Yet?</label>
-
+        <div id="has-read-label-and-check">
+          <input type="checkbox" name="read" id="is-read-input">
+          <label for="is-read-input">Have You Read This Yet?</label>
+        </div>
         <button type="submit">Submit</button>
       </form>
     </div>
