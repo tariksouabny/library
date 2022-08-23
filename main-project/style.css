@@ -132,6 +132,7 @@ color: var(--secondary-clr-l3);
   box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.4);
 border-radius: 5px;
 border-bottom: 5px solid var(--primary-clr-l1);
+margin-top: 2em;
 }
 
 form {
@@ -148,6 +149,7 @@ form .inputs {
   flex-direction: column;
   justify-content: space-evenly;
 }
+
 
 .add-a-book h2 {
   font-family: 'Montserrat';
@@ -190,7 +192,7 @@ color: var(--primary-clr-l3)
 }
 
 #has-read-label-and-check label {
-  font-family: 'Lora';
+  font-family:  'Lora';
   font-style: italic;
   font-weight: 500;
   font-size: 24px;
@@ -216,4 +218,11 @@ border: 1px solid var(--primary-clr-d2);
 outline: none;
 border-radius: 5px;
 width: 8.5ch;
+}
+
+/* Every margin in add-a-book is spaced out */
+
+.add-a-book > * ,  form > * {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
 }
