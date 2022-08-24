@@ -38,6 +38,8 @@
   --primary-font: 'Montserrat';
   --secondary-font: 'Lora', serif;
 
+  --form-inner-margin: .5rem;
+
 }
 
 *, *::before, *::after {
@@ -223,6 +225,12 @@ width: 8.5ch;
 /* Every margin in add-a-book is spaced out */
 
 .add-a-book > * ,  form > * {
-  margin-top: .5rem;
-  margin-bottom: .5rem;
+  margin-top: var(--form-inner-margin);
+  margin-bottom: var(--form-inner-margin);
+}
+
+/* Title in add-a-book has top padding */
+
+.add-a-book h2 {
+  padding-top: var(--form-inner-margin);
 }
